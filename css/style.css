@@ -199,7 +199,12 @@ img{
     transform: translateY(-15px);
   }
 
-  /* contactus*/
+  /* contactus
+         <section class="card contactus">
+
+        </section>
+  
+  */
 
   .contactus{
       background-color: #1c3fa8;
@@ -208,7 +213,7 @@ img{
       margin: 0 20%;
       z-index: 5;
       position: relative;
-      
+
   }
 
   /* Footer */

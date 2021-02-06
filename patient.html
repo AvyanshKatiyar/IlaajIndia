@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IlaajIndia|Sonu Sood</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/utilities.css"  >
+    <link rel="stylesheet" href="css/patient.css"  >
+    
+    <link rel="stylesheet" href="css/style.css"  >
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">IlaajIndia|Sonu Sood</h1>
+            <nav>
+                <ul>
+                    <li><a href="login.html" class="btn btn-dark navexpand">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!--Form-->
+
+    <div class="frm card">
+        <form>
+            <div class="grid grid-8">
+                <input type="text" class="frm-in-txt" name="illness-details" id="illness-details" placeholder="Illness Details" required="">
+                <input type="text" class="frm-in-txt" name="s-d-s" id="s-d-s"     placeholder="Select Doctors Speciality"  >
+                <input type="text" class="frm-in-txt" name="pname" id="pname"     placeholder="Name*" required="" >
+                <input type="tel" class="frm-in-txt" name="phnum" id="phnum"     placeholder="Phone Number*" required="" >
+                <input type="text" class="frm-in-txt" name="anum" id="anum"     placeholder="Aadhar Number*" required="" >
+                <input type="text" class="frm-in-txt" name="rnum" id="rnum"     placeholder="Ration Number"  >
+                <input type="date" id="birthday" name="birthday" value="yyyys-mm-dd">
+
+                <select class="frm-in-txt"  name="gender" id="gender" required="">
+                    <option value="" disabled selected>Gender*</option>
+
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+
+                  </select>
+
+            </div>
+            <br>
+            <div class="grid grid-1">
+
+                <input type="text" class="frm-in-txt " name="address" id="address" placeholder="Address" >
+
+            </div>
+            <br>
+
+            <div class="grid grid-3">
+                <input type="text" class="frm-in-txt " name="state" id="state" placeholder="State*" >
+                <input type="text" class="frm-in-txt " name="city" id="city" placeholder="City*" >
+                <input type="number" class="frm-in-txt " name="pincode" id="pincode" placeholder="Pincode*" >
+
+
+            </div>
+
+            <br>
+            
+            <div class="grid grid-1">
+
+                <select class="frm-in-txt"  name="iftreat" id="iftreat" required="">
+                    <option value="" disabled selected>Are you undergoing any treatment?*</option>
+
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+
+                  </select>
+            </div>
+
+            <br>
+
+            <div class="grid grid-6">
+                <input type="text" class="frm-in-txt" name="hsptl-nm" id="hsptl-nm" placeholder="Hospital Name*" required="">
+                <input type="text" class="frm-in-txt" name="hsptl-ph" id="hsptl-ph"     placeholder="Hospital phone number* "  >
+                <input type="text" class="frm-in-txt" name="hsptl-city" id="hsptl-city"     placeholder="Hospital City*" required="" >
+                <input type="number" class="frm-in-txt" name="hsptl-pin" id="hsptl-pin"     placeholder="Hospital pincode*" required="" >
+                <input type="email" class="frm-in-txt" name="hsptl-doc-email" id="hsptl-doc-email"     placeholder="Doctor's email id"  >
+                <input type="text" class="frm-in-txt" name="hsptl-doc-num" id="hsptl-doc-num"     placeholder="Doctor's phone number*" required="" >
+
+            </div>
+            <br>
+            <div class="grid grid-1">
+
+                <select class="frm-in-txt"  name="stay" id="stay" required="">
+                    <option value="" disabled selected>What city would you prefer to be treated at?*</option>
+
+                    <option value="delhi">Delhi</option>
+                    <option value="mumbai">Mumbai</option>
+
+                  </select>
+            </div>
+
+            <br>
+            <div class="grid grid-1">
+                <input type="text" class="frm-in-txt" name="exp-cost" id="exp-cost" placeholder="Expected cost of treatment*" required="">
+
+            </div>
+            
+            <br>
+            <div class="grid grid-2">
+
+                <input type="submit" class="frm-in-txt">
+                <p></p>
+                <p></p>
+
+                <input type="reset" class="frm-in-txt red">
+            </div>
+           
+
+
+
+        </form>
+    </div>
+
+    
+            <!-- Footer -->
+            <footer class="footer bg-dark py-5">
+                <div class="container grid grid-3">
+                    <div>
+                        <h1>IlaajIndia
+                        </h1>
+                        <p>Copyright &copy; 2020</p>
+                    </div>
+        
+                    <div class="social">
+                        <h1>Socials</h1>
+                        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                    </div>
+                    <div class="conts">
+                        <h1>Contact us</h1>
+                        <ul>
+                            <li>+99XXXXXXX</li>
+                            <li>ilaajindia@sonusood.me</li>
+                        </ul>
+                    </div>
+
+
+                   
+
+
+        
+        
+        
+
+            </div>
+            </footer>
+</body>
+
+</html>

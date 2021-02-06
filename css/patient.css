@@ -1,0 +1,19 @@
+.frm{
+    width: 80%;
+    margin: auto;
+}
+
+.frm-in-txt{
+
+    padding: 10px; 
+}
+
+.full{
+    margin: auto;
+}
+
+.red{
+    background-color: red;
+    margin-right: 0;
+    outline: none;
+}
